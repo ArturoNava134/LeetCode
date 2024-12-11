@@ -12,7 +12,7 @@
                 "<node_internals>/**"
             ],
             "outputCapture": "std",
-            "program": "${workspaceFolder}/JS/88mergeSortedArray.js"
+            "program": "${workspaceFolder}/JS/80removeDuplicatesFromSortedArraypt2.js"
         }
     ]
 }
