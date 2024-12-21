@@ -5,6 +5,20 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "type": "java",
+            "name": "isPalindrome09",
+            "request": "launch",
+            "mainClass": "Java.isPalindrome09",
+            "projectName": "topInterview150_53fc1567"
+        },
+        {
+            "type": "java",
+            "name": "LCisPalindrome",
+            "request": "launch",
+            "mainClass": "Java.LCisPalindrome",
+            "projectName": "topInterview150_53fc1567"
+        },
+        {
             "type": "node",
             "request": "launch",
             "name": "Launch Program",
