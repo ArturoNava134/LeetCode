@@ -24,8 +24,6 @@
 // -231 <= x <= 231 - 1
 
 
-package Java;
-
 public class isPalindrome09 {
     
     public boolean ispalindrome(int x) {

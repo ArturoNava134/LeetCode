@@ -8,6 +8,13 @@
             "type": "java",
             "name": "isPalindrome09",
             "request": "launch",
+            "mainClass": "isPalindrome09",
+            "projectName": "topInterview150_53fc1567"
+        },
+        {
+            "type": "java",
+            "name": "isPalindrome09",
+            "request": "launch",
             "mainClass": "Java.isPalindrome09",
             "projectName": "topInterview150_53fc1567"
         },
