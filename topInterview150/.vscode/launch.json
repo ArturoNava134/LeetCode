@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "validParentheses20",
+            "request": "launch",
+            "mainClass": "validParentheses20",
+            "projectName": "topInterview150_53fc1567"
+        },
+        {
+            "type": "java",
             "name": "LengthOfLastWord",
             "request": "launch",
             "mainClass": "LengthOfLastWord",
