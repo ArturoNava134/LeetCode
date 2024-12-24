@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "LengthOfLastWord",
+            "request": "launch",
+            "mainClass": "LengthOfLastWord",
+            "projectName": "topInterview150_53fc1567"
+        },
+        {
+            "type": "java",
+            "name": "lengthOfLastWord",
+            "request": "launch",
+            "mainClass": "lengthOfLastWord",
+            "projectName": "topInterview150_53fc1567"
+        },
+        {
+            "type": "java",
             "name": "plusOne66",
             "request": "launch",
             "mainClass": "plusOne66",
