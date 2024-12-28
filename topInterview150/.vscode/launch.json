@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "MinimumSizeSubarraySum209",
+            "request": "launch",
+            "mainClass": "MinimumSizeSubarraySum209",
+            "projectName": "topInterview150_53fc1567"
+        },
+        {
+            "type": "java",
             "name": "ReverseWordsinaString",
             "request": "launch",
             "mainClass": "ReverseWordsinaString",
