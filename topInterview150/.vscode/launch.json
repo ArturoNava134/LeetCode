@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Solution",
+            "request": "launch",
+            "mainClass": "Solution",
+            "projectName": "topInterview150_53fc1567"
+        },
+        {
+            "type": "java",
             "name": "FindTheIndex",
             "request": "launch",
             "mainClass": "FindTheIndex",
