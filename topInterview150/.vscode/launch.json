@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "RomanToInterger",
+            "request": "launch",
+            "mainClass": "RomanToInterger",
+            "projectName": "topInterview150_53fc1567"
+        },
+        {
+            "type": "java",
             "name": "Solution",
             "request": "launch",
             "mainClass": "Solution",
