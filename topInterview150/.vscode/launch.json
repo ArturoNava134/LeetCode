@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Chickens01",
+            "request": "launch",
+            "mainClass": "Chickens01",
+            "projectName": "topInterview150_53fc1567"
+        },
+        {
+            "type": "java",
             "name": "RomanToInterger",
             "request": "launch",
             "mainClass": "RomanToInterger",
