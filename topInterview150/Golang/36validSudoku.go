@@ -32,7 +32,7 @@ func isValidSudoku(board [][]byte) bool {
 	return true
 }
 
-func main() {
+func main2() {
 
 	board := [][]byte{
 		[]byte("53..7...."),
