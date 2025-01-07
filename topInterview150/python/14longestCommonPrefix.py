@@ -20,4 +20,6 @@ class Solution:
 
     strings = ["flower", "flow", "flight"]
 
+
+    
     longestCommonPrefix(strings)
