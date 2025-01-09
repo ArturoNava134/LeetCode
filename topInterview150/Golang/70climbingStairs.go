@@ -48,7 +48,7 @@ func climbStairs(n int) int {
 }
 
 func main() {
-	n := 3
+	n := 1
 	result := climbStairs(n)
 
 	fmt.Println("result: ", result)
