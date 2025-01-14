@@ -1,5 +1,7 @@
 var climbStairs = function(n, memo = {1:1, 2:2}) {
-   //document this one and add two more. 
+   //document this one and add three more. 
+
+
     if (memo[n] !== undefined) return memo[n];   
     memo[n] = climbStairs(n - 1, memo) + climbStairs(n - 2, memo);
 
