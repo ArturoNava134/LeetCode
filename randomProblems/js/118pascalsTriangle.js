@@ -19,6 +19,45 @@
 
 // 1 <= numRows <= 30
 
+
+// the code i did in my notebook: 
+// var generate = function(numRows) {
+//     let res = [[1]]; 
+//     if (numRows == 1) {
+//         return res; 
+//     }
+//     if (numRows == 0) {
+//         return [[]]; 
+//     }
+//     let FandLidx = 1;
+
+//     for (let i = 2; i <= numRows; i++) {
+//         let rowN = i;
+//         let row = [FandLidx]; 
+//         if (rowN > 2) {
+//             let lastRow = res[rowN - 2]; 
+//             let lrLength = lastRow.length;
+
+//             for (let t = 0; t < lrLength - 1; t++) {
+//                 let currPosition = lastRow[t];
+//                 let nextPosition = lastRow[t + 1];
+//                 let nextVal = currPosition + nextPosition;
+//                 row.push(nextVal); 
+//             }
+//         }
+
+//         row.push(FandLidx); 
+//         console.log("row: ", row); 
+//         res.push(row); 
+//     }
+
+//     console.log("res:", res); 
+//     return res;
+// };
+
+
+// a better solution:
+
 var generate = function(numRows) {
     let res = [[1]]; 
     if (numRows === 1) {
