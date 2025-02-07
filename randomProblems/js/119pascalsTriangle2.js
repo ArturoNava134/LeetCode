@@ -49,5 +49,5 @@ var getRow = function(rowIndex) {
     return row;
 };
 
-// Example usage:
+
 console.log(getRow(4));
