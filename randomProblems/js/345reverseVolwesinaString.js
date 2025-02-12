@@ -66,6 +66,6 @@ var reverseVowels = function(s) {
 };
 
 
-let s = "yo! Bottoms Up, u.S. Motto, boy!";
+let s = "IceCreAm";
 
 reverseVowels(s);
