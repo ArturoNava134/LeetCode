@@ -47,7 +47,7 @@ func climbStairs(n int) int {
 	return dp[n]
 }
 
-func main() {
+func mainClimbing() {
 	n := 1
 	result := climbStairs(n)
 
