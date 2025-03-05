@@ -31,4 +31,6 @@ var strStr = function(haystack, needle, index1 = 0, index2 = 0) {
 };
 
 // Ejemplo de uso:
-console.log(strStr("sadbutsad", "sad"));
+console.log(strStr("sadbutsad", "sad")); 
+
+
