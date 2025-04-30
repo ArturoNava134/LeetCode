@@ -8,6 +8,6 @@ Array.prototype.groupBy = function(fn) {
         }
         res[key].push(obj);
     }
-
+    console.log(res);
     return res;
 };
