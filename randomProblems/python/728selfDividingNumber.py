@@ -22,6 +22,8 @@
 # 1 <= left <= right <= 104
 
 
+#solution:
+
 class Solution(object):
 
     def selfDividingNumbers(left, right):
