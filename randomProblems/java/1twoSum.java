@@ -1,30 +1,25 @@
+//optimal solution
+
+/*
+using one single loop and hashmaps to store the needed number to reach the target (target minus current number) as a key
+and the index of the current looping number as a value so we check the keys(needed) in the next values of the array
+for example {5, 2, 4} target: 6
+hash: key->value
+first position 5, we store 1(target-currentNumber) as the key and 0(position) as the value.
+second position 2, we check if 2 is in the current map(isnt), so we store 4 as the key and 1 as the value.
+third position 4, we notice that we have 4 in the keys of the hashmap so we return the value(position) of that key
+and the current position.
+ */
 class Solution {
-
-    // Method to find two numbers in the array that add up to the target value
     public int[] twoSum(int[] nums, int target) {
-
-        // Create a HashMap to store numbers and their corresponding indices
-        Map<Integer, Integer> numToIndexMap = new HashMap<>();
-        
-        // Get the size of the input array
-        int sizeOfArray = nums.length;
-
-        // Loop through the array
-        for(int i = 0; i < sizeOfArray; i++) {
-            // Calculate the difference between the target and the current number
-            int diff = target - nums[i];
-
-            // Check if the difference already exists in the map
-            if(numToIndexMap.containsKey(diff)) {
-                // If it exists, return the indices of the current number and the number that adds up to the target
-                return new int[]{i, numToIndexMap.get(diff)};
+        Map<Integer, Integer> complements = new HashMap<>();
+        for(int i = 0; i < nums.length; i++){
+            Integer complementIndex = complements.get(nums[i]);
+            if(complementIndex != null){
+                return new int[]{i, complementIndex};
             }
-
-            // If it doesn't exist, add the current number and its index to the map
-            numToIndexMap.put(nums[i], i);
+            complements.put(target-nums[i], i);
         }
-
-        // If no two numbers add up to the target, return null
-        return null;
+        return nums;
     }
 }
