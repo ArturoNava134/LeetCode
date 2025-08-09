@@ -8,7 +8,7 @@ hash: key->value
 first position 5, we store 1(target-currentNumber) as the key and 0(position) as the value.
 second position 2, we check if 2 is in the current map(isnt), so we store 4 as the key and 1 as the value.
 third position 4, we notice that we have 4 in the keys of the hashmap so we return the value(position) of that key
-and the current position.
+and the current position
  */
 class Solution {
     public int[] twoSum(int[] nums, int target) {
