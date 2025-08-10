@@ -1,3 +1,4 @@
+//simple solution
 class Solution {
     public int removeElement(int[] nums, int val) {
         int len = nums.length;
