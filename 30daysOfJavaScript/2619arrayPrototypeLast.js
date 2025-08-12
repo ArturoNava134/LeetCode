@@ -9,3 +9,4 @@ const arr = [1, 2, 3];
 let res = arr.last();
 
 console.log(res);
+//q
