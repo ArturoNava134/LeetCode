@@ -24,3 +24,18 @@ class Solution {
         return nums;
     }
 }
+// function twoSum(nums, target){
+//     const numberToIndex = {};
+
+//     for (let i = 0; i < nums.length; i++){
+//         numberToIndex[nums[i]] = i;
+//     }
+//     for(let i = 0; i < nums.length; i++){
+//         const numberNedeed = target - nums[i];
+
+//         if(numberToIndex[numberNedeed] !== undefined && numberToIndex[numberNedeed] !== i) {
+//             return [i, numberToIndex[numberNedeed]];
+//         }
+//     }
+// }
+
