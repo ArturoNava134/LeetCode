@@ -6,7 +6,7 @@ class ListNode {
     }
 }
 
-// Function to convert an array into a linked list
+// Function to convert an array into a linked list 
 const arrayToLinkedList = (arr) => {
     let dummy = new ListNode();
     let current = dummy;
